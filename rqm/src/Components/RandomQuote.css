@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 400px;
+    width: 35%;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffffffbd, #ffd6a7ba);
+    box-shadow: 5px 5px 10px #00000072,
+                -2.5px -2.5px 10px #000000;
+}
+
+.quote {
+    font-size: 30px;
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.separation {
+    width: 500px;
+    height: 1.75px;
+    background: black;
+}
+
+.bottom-half {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.author {
+    font-size: 22px;
+    font-weight: 600
+}
+
+.logos {
+    display: flex;
+    gap: 30px;
+}
+
+.logos img {
+    cursor: pointer;
+}
